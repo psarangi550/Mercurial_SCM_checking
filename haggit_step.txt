@@ -1,0 +1,29 @@
+
+hg init:- to initiate the .hg file for repo
+
+hg add .:- to add the modified files
+
+hg commit -M <message> :- will commit to the file 
+
+then create a file in .hg\hgrc in the project repo where you will be putting all your settings
+
+here we need the haggit extension which can be fetched in 
+
+hg clone https://foss.heptapod.net/mercurial/hg-git ~/.hgext/hg-git
+
+this will create the file in C:\Users\611903295\.hgext\hg-git\haggit
+
+the put that to the 
+
+[extensions]
+hggit = C:\Users\611903295\.hgext\hg-git\haggit
+
+[paths]
+default=<path of you git remote repo with .git connection >
+
+hg push :-will push to the remote repo 
+
+hg status will say the status 
+
+hg logs will display the logs
+
