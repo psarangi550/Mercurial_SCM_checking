@@ -21,6 +21,10 @@ hggit = C:\Users\611903295\.hgext\hg-git\haggit
 [paths]
 default=<path of you git remote repo with .git connection >
 
+before pushing we need to creatre a bookmark or branch for the same as 
+
+hg bookmark <branch name in remote repo> :-this will create a repo on the remote repo
+
 hg push :-will push to the remote repo 
 
 hg status will say the status 
